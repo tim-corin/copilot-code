@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 55;
+	objects = {
+		/* Begin PBXProject section */
+		DUMMY_PROJECT /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1440;
+				ORGANIZATIONNAME = "Your Organization";
+			};
+			buildConfigurationList = DUMMY_PROJECT_BUILD_CONFIG;
+			hasScannedForEncodings = 0;
+			mainGroup = DUMMY_MAIN_GROUP;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DUMMY_APP_TARGET,
+			);
+		};
+		/* End PBXProject section */
+
+		/* Begin PBXGroup section */
+		DUMMY_MAIN_GROUP = {
+			isa = PBXGroup;
+			children = (
+				SOURCES_GROUP,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+
+		SOURCES_GROUP = {
+			isa = PBXGroup;
+			children = (
+				FILE_REF_COPILOTAPP_SWIFT,
+				FILE_REF_CONTENTVIEW_SWIFT,
+			);
+			name = "CopilotApp";
+			sourceTree = "<group>";
+		};
+		/* End PBXGroup section */
+
+		/* Begin PBXFileReference section */
+		FILE_REF_COPILOTAPP_SWIFT = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			name = "CopilotApp.swift";
+			path = "Sources/CopilotApp/CopilotApp.swift";
+			sourceTree = "<group>";
+		};
+
+		FILE_REF_CONTENTVIEW_SWIFT = {
+			isa = PBXFileReference;
+			lastKnownFileType = "sourcecode.swift";
+			name = "ContentView.swift";
+			path = "Sources/CopilotApp/ContentView.swift";
+			sourceTree = "<group>";
+		};
+		/* End PBXFileReference section */
+
+		/* Begin PBXSourcesBuildPhase section */
+		DUMMY_SOURCES_BUILD_PHASE = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DUMMY_BUILD_FILE_COPILOTAPP,
+				DUMMY_BUILD_FILE_CONTENTVIEW,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		/* End PBXSourcesBuildPhase section */
+
+		/* Begin PBXBuildFile section */
+		DUMMY_BUILD_FILE_COPILOTAPP = {
+			isa = PBXBuildFile;
+			fileRef = FILE_REF_COPILOTAPP_SWIFT;
+		};
+
+		DUMMY_BUILD_FILE_CONTENTVIEW = {
+			isa = PBXBuildFile;
+			fileRef = FILE_REF_CONTENTVIEW_SWIFT;
+		};
+		/* End PBXBuildFile section */
+
+		/* Begin PBXNativeTarget section */
+		DUMMY_APP_TARGET = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DUMMY_TARGET_BUILD_CONFIG;
+			buildPhases = (
+				DUMMY_SOURCES_BUILD_PHASE,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopilotApp;
+			productName = CopilotApp;
+			productType = "com.apple.product-type.application";
+		};
+		/* End PBXNativeTarget section */
+
+		/* Begin XCBuildConfiguration section */
+		DUMMY_BUILD_CONFIG_DEBUG = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = "16.0";
+				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "";
+				SWIFT_VERSION = "5.0";
+			};
+			name = Debug;
+		};
+
+		DUMMY_BUILD_CONFIG_RELEASE = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = "16.0";
+				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "";
+				SWIFT_VERSION = "5.0";
+			};
+			name = Release;
+		};
+		/* End XCBuildConfiguration section */
+
+		/* Begin XCConfigurationList section */
+		DUMMY_PROJECT_BUILD_CONFIG = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DUMMY_BUILD_CONFIG_DEBUG,
+				DUMMY_BUILD_CONFIG_RELEASE,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+
+		DUMMY_TARGET_BUILD_CONFIG = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DUMMY_BUILD_CONFIG_DEBUG,
+				DUMMY_BUILD_CONFIG_RELEASE,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		/* End XCConfigurationList section */
+	};
+	rootObject = DUMMY_PROJECT;
+}
